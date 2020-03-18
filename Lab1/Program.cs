@@ -6,9 +6,9 @@ namespace Lab1
     {
         public static void Main(string[] args)
         {
+ 
 
-
-            Person person = new Person();
+            Person person = new Person("Bob", "Kunga");
             int numero = person.Lanzar();
             Console.WriteLine(numero);
 

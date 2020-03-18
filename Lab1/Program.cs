@@ -6,11 +6,12 @@ namespace Lab1
     {
         public static void Main(string[] args)
         {
-            Person call = new Person();
-            int numero = call.Lanzar();
+
+
+            Person person = new Person("Bob", "Kunga");
+            int numero = person.Lanzar();
             Console.WriteLine(numero);
 
-            
         }
     }
 

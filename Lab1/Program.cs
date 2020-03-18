@@ -8,7 +8,7 @@ namespace Lab1
         {
 
 
-            Person person = new Person("Bob", "Kunga");
+            Person person = new Person();
             int numero = person.Lanzar();
             Console.WriteLine(numero);
 

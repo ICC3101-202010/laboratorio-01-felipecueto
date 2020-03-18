@@ -15,11 +15,6 @@ namespace Lab1
             return num;
 
         }
-        //Constructor
-        public Person(String name, String lastname)
-        {
-            Name = name;
-            LastName = lastname;
-        }
+      
     }
 }

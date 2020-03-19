@@ -4,8 +4,8 @@ namespace Lab1
     public class Person
     {
         //Atributos
-        public String Name;
-        public String LastName;
+        private String Name;
+        private String LastName;
 
         //Comportamiento
         public int Lanzar()

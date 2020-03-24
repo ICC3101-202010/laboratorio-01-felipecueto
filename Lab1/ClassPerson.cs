@@ -16,10 +16,10 @@ namespace Lab1
 
         }
         //Constructor
-        public Person(String name, String lastname)
+        public Person(String Name, String Lastname)
         {
-            Name = name;
-            LastName = lastname;
+            this.Name = Name;
+            this.LastName = Lastname;
         }
     }
 }
